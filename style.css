@@ -257,6 +257,18 @@ textarea {
   display: flex;
   flex-direction: column;
 }
+
+.produkt-kort {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.produkt-kort:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
 /* PRODUKT BILLEDE */
 .produkt-billede {
   flex: 1;
@@ -783,4 +795,11 @@ textarea {
   .footer-sociale a {
     font-size: 20px;
   }
+}
+
+.navigation .menu a:hover,
+.navigation .logo:hover,
+.navigation .ikoner a:hover {
+  color: #000000 !important;
+  transition: color 0.3s ease;
 }
