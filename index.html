@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Yori Jomo</title>
+
+    <!-- Skrifttype -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Ikoner -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <main>
+      <!-- HERO SEKTION -->
+
+      <section class="hero">
+        <!-- Navigation -->
+        <header class="navigation">
+          <a href="index.html" class="logo">YORI JOMO</a>
+
+          <nav class="menu">
+            <a href="#shop">SHOP</a>
+            <a href="#nyheder">NYHEDER</a>
+            <a href="#om-os">OM OS</a>
+          </nav>
+
+          <div class="ikoner">
+            <a href="#" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+
+            <a href="#" aria-label="Søg">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <a href="#" aria-label="Indkøbskurv">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+
+            <button
+              class="burger-knap"
+              id="burger-knap"
+              aria-label="Åbn menu"
+              aria-expanded="false"
+              aria-controls="mobil-menu"
+            >
+              <i class="fa-solid fa-bars"></i>
+            </button>
+          </div>
+        </header>
+
+        <!-- Stor overskrift -->
+        <div class="hero-logo">
+          <h1>YORI JOMO</h1>
+        </div>
+
+        <!-- Hero tekst -->
+        <div class="hero-tekst">
+          <h2>
+            Designet i København.<br />
+            Håndlavet i Toscana.
+          </h2>
+
+          <p>Håndlavede sko fra Toscana til kvinder, der vælger med omtanke.</p>
+
+          <a href="#shop" class="hero-knap"> UDFORSK KOLLEKTIONEN NU </a>
+        </div>
+      </section>
+
+      <!-- BURGERMENU MOBIL -->
+
+      <div class="mobil-menu" id="mobil-menu">
+        <button class="luk-menu" id="luk-menu" aria-label="Luk menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <nav class="mobil-links">
+          <a href="#shop">SHOP</a>
+          <a href="#nyheder">NYHEDER</a>
+          <a href="#om-os">OM OS</a>
+        </nav>
+      </div>
+
+      <!-- SEKTION 2 - OM YORI JOMO -->
+
+      <section class="om-sektion" id="om-os">
+        <div class="om-indhold">
+          <div class="om-billede">
+            <img
+              src="img/Sektion2billedesorte.png"
+              alt="Sorte loafers fra Yori Jomo"
+            />
+          </div>
+
+          <div class="om-tekst">
+            <h2>MERE END BARE EN SKO</h2>
+
+            <p>
+              Yori Jomo er til kvinder, der ved, hvad hun kan lide – og ikke har
+              brug for mere.
+              <br />
+              Vi tror på færre, bedre valg. På kvalitet, der holder. Og på sko,
+              der bliver en del af din personlige stil.
+            </p>
+
+            <h2>VÆLG MINDRE. VÆLG RIGTIGT</h2>
+
+            <p>
+              Ikke flere trends. Ikke mere støj.
+              <br />
+              Bare sko med karakter, kvalitet og et udtryk, der føles som dit.
+            </p>
+          </div>
+        </div>
+
+        <a href="#shop" class="shop-knap">SHOP</a>
+      </section>
+
+      <!-- SEKTION 3 - PRODUKT CARDS -->
+
+      <section class="produkter" id="nyheder">
+        <!-- Overskrift -->
+        <h2 class="produkter-overskrift desktop-overskrift">NYHEDER</h2>
+
+        <h2 class="produkter-overskrift mobil-overskrift">FLERE FAVORITTER</h2>
+
+        <!-- Alle produktkort -->
+        <div class="produkt-liste" id="shop">
+          <!-- Produkt 1 -->
+          <article class="produkt-kort">
+            <div class="produkt-billede">
+              <img src="img/Card_sko1.png" alt="ALBA Loafers Nappa Black" />
+            </div>
+
+            <div class="produkt-info">
+              <h3>ALBA Loafers Nappa Black</h3>
+              <p class="produkt-pris">2200 kr</p>
+            </div>
+          </article>
+
+          <!-- Produkt 2 -->
+          <article class="produkt-kort">
+            <div class="produkt-billede">
+              <img
+                src="img/Cards_sko2.png"
+                alt="PENELOPE Ballerina Nappa Champagne"
+              />
+            </div>
+
+            <div class="produkt-info">
+              <h3>PENELOPE Ballerina Nappa Champagne</h3>
+              <p class="produkt-pris">1400 kr</p>
+            </div>
+          </article>
+
+          <!-- Produkt 3 -->
+          <article class="produkt-kort">
+            <div class="produkt-billede">
+              <img src="img/Cards_sko3.png" alt="CLOE Flats Python Creamy" />
+            </div>
+
+            <div class="produkt-info">
+              <h3>CLOE Flats Python Creamy</h3>
+              <p class="produkt-pris">2100 kr</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- SEKTION 4 - SKO OG BÆLTER -->
+
+      <section class="kategorier">
+        <!-- SKO -->
+
+        <div class="kategori kategori-sko">
+          <img
+            src="img/Sektion3.png"
+            alt="Sorte loafers fra Yori Jomo"
+            class="kategori-billede"
+          />
+
+          <h2>SKO</h2>
+
+          <a href="#shop" class="kategori-knap"> SHOP SKO </a>
+        </div>
+
+        <!-- BÆLTER -->
+
+        <div class="kategori kategori-baelter">
+          <img
+            src="img/sektion3bælter.png"
+            alt="Brunt læderbælte fra Yori Jomo"
+            class="kategori-billede"
+          />
+
+          <h2>BÆLTER</h2>
+
+          <a href="#baelter" class="kategori-knap"> SHOP BÆLTER </a>
+        </div>
+      </section>
+
+      <!-- SEKTION 5 - RETAILERS -->
+
+      <section class="retailers" id="retailers">
+        <h2 class="retailers-overskrift">RETAILERS</h2>
+
+        <div class="retailers-indhold">
+          <!-- DANMARK -->
+          <div class="retailers-land">
+            <h3>DANMARK</h3>
+
+            <ul>
+              <li>Adélie, København N</li>
+              <li>Cristels, Hørsholm</li>
+              <li>FF2, Aarhus C</li>
+              <li>Husetno10, Horsens</li>
+              <li>Leah Maria, Charlottenlund</li>
+              <li>Lubarol, Copenhagen K</li>
+              <li>Rooms Galore, Hornbæk</li>
+              <li>Ruebirch, Nykøbing Falster</li>
+              <li>Verk, Dragør</li>
+            </ul>
+          </div>
+
+          <!-- NORGE -->
+          <div class="retailers-land">
+            <h3>NORGE</h3>
+
+            <ul>
+              <li>Bolina, Stabekk</li>
+              <li>Ensemble, Oslo</li>
+              <li>Liseanns, Kragerø</li>
+              <li>LOT33, Bergen</li>
+              <li>Modo, Ålesund</li>
+              <li>Rolfsen, Stavanger</li>
+              <li>Shine, Trondheim</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEKTION 6 - FOOTER -->
+
+      <footer class="footer">
+        <!-- LODRET LOGO -->
+        <div class="footer-logo">YORI JOMO</div>
+
+        <!-- LINKS -->
+        <div class="footer-links">
+          <div class="footer-link-kolonne">
+            <a href="#om-os">Om Yori Jomo</a>
+            <a href="#">Kundeservice</a>
+            <a href="#">Vilkår</a>
+            <a href="#">Politikker</a>
+          </div>
+
+          <div class="footer-link-kolonne">
+            <span>© 2026 Yori Jomo</span>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="#">Contact</a>
+          </div>
+        </div>
+
+        <!-- NYHEDSBREV -->
+        <div class="footer-nyhedsbrev">
+          <h2>Tilmeld dig vores nyhedsbrev</h2>
+
+          <form>
+            <label for="footer-email">*E-mail</label>
+            <input
+              type="email"
+              id="footer-email"
+              name="email"
+              placeholder="E-mail"
+              autocomplete="email"
+              required
+            />
+          </form>
+
+          <!-- SOCIALE MEDIER -->
+          <div class="footer-sociale">
+            <a href="https://www.facebook.com/" aria-label="Facebook">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+
+            <a href="https://www.instagram.com/" aria-label="Instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <!-- JavaScript -->
+    <script src="burgermenu.js"></script>
+  </body>
+</html>
